@@ -1,0 +1,29 @@
+{
+    "rooms": {
+        "bathroom":{
+            "name": "Bathroom",
+            "icon": "bath",
+            "devicesCount": 4
+        },
+        "bedroom": {
+            "name": "Bedroom",
+            "icon": "bed",
+            "devicesCount": 4
+        },
+        "kitchen": {
+            "name": "Kitchen",
+            "icon": "bread-slice",
+            "devicesCount": 4
+        },
+        "living-room": {
+            "name": "Living Room",
+            "icon": "couch",
+            "devicesCount": 4
+        },
+        "study-room": {
+            "name": "Study Room",
+            "icon": "book-reader",
+            "devicesCount": 4
+        }
+    }
+}
