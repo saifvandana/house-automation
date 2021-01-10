@@ -1,0 +1,49 @@
+@import "../../styles/utils/utils";
+
+.Header {
+  box-shadow: 10px 5px 5px rgb(216, 121, 216);
+  background: purple;
+  padding: 25px 15px;
+  margin: auto;
+  box-sizing: border-box;
+  
+
+  .HeaderContainer {
+    display: flex;
+    max-width: $MAX_WIDTH;
+    margin: auto;
+  }
+
+  .AppName {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #fff;
+
+    &::after {
+      content: "";
+      margin-left: 10px;
+      align-items: right;
+      border-right: 1px solid #fff;
+    }
+  }
+
+  .Navigation {
+    margin-left: auto;
+    font-size: 1.1rem;
+  }
+
+  .MenuBtn {
+    display: none;
+    margin-left: auto;
+  }
+
+  @include mobile-view {
+    .Navigation {
+      display: none;
+    }
+
+    .MenuBtn {
+      display: block;
+    }
+  }
+}

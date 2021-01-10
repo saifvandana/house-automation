@@ -34,7 +34,7 @@
       },
       "8572565781": {
         "name": "Heater",
-        "switch": false,
+        "switch": true,
         "icon":"",
         "controls": {
           "0601482435": {

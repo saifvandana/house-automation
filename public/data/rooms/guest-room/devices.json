@@ -1,12 +1,12 @@
 {
     "devices": {
-      "1211949132": {
+      "1911949132": {
         "name": "Lights",
         "switch": true,
         "icon":"",
         "controls": null
       },
-      "3542264291": {
+      "4542264291": {
         "name": "Curtains",
         "switch": true,
         "icon":"",
@@ -28,18 +28,12 @@
           }
         }
       },
-      "2294726544": {
-        "name": "Wifi",
-        "switch": true,
-        "icon":"",
-        "controls": null
-      },
-      "2409599664": {
+      "4542264292": {
         "name": "Fan",
         "switch": true,
         "icon":"",
         "controls": {
-          "0630687293": {
+          "3368059519": {
             "name": "Intensity",
             "type": "mode",
             "value": "low",
@@ -60,12 +54,13 @@
           }
         }
       },
-      "7851085670": {
+      
+      "4156356272": {
         "name": "Air Conditioner",
         "switch": true,
         "icon":"",
         "controls": {
-          "4276924312": {
+          "1464080197": {
             "name": "Mode",
             "type": "mode",
             "value": "cold",
@@ -84,7 +79,7 @@
               }
             }
           },
-          "0065575783": {
+          "9450026807": {
             "name": "Temperature",
             "type": "temperature",
             "unit": "c",
@@ -92,10 +87,10 @@
             "min": 16,
             "max": 30
           },
-          "1747025804": {
+          "6594218673": {
             "name": "Vane",
             "type": "mode",
-            "value": "cold",
+            "value": "middle",
             "options": {
               "top": {
                 "name": "Top"

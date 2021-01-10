@@ -1,49 +1,44 @@
 {
     "devices": {
-      "8220814373": {
+      "1911949132": {
         "name": "Lights",
         "switch": true,
-        "controls": {
-          "8774176610": {
-            "name": "Intensity",
-            "type": "scale",
-            "value": 20,
-            "min": 0,
-            "max": 100,
-            "step": 10
-          }
-        }
+        "icon":"",
+        "controls": null
       },
-      "5523004316": {
-        "name": "Fan",
+      "4542264291": {
+        "name": "Curtains",
         "switch": true,
+        "icon":"",
         "controls": {
-          "4956896384": {
-            "name": "Intensity",
+          "3368059519": {
+            "name": "Status",
             "type": "mode",
-            "value": "low",
+            "value": "open",
             "options": {
-              "low": {
-                "name": "Low",
+              "open": {
+                "name": "Open",
                 "icon": ""
               },
-              "medium": {
-                "name": "Medium",
-                "icon": ""
-              },
-              "high": {
-                "name": "High",
+              "close": {
+                "name": "Close",
                 "icon": ""
               }
             }
           }
         }
       },
-      "1369554512": {
-        "name": "Cleaner",
+      "2694726544": {
+        "name": "Wifi",
+        "switch": true,
+        "icon":"",
+        "controls": null
+      },
+      "5523004316": {
+        "name": "Fan",
         "switch": true,
         "controls": {
-          "0510865880": {
+          "4956896384": {
             "name": "Intensity",
             "type": "mode",
             "value": "low",

@@ -2,27 +2,32 @@
     "rooms": {
         "bathroom":{
             "name": "Bathroom",
-            "icon": "bath",
+            "icon": "shower",
             "devicesCount": 4
         },
         "bedroom": {
             "name": "Bedroom",
             "icon": "bed",
-            "devicesCount": 4
+            "devicesCount": 5
         },
         "kitchen": {
             "name": "Kitchen",
-            "icon": "bread-slice",
-            "devicesCount": 4
+            "icon": "hamburger",
+            "devicesCount": 5
         },
         "living-room": {
             "name": "Living Room",
             "icon": "couch",
-            "devicesCount": 4
+            "devicesCount": 5
         },
         "study-room": {
             "name": "Study Room",
             "icon": "book-reader",
+            "devicesCount": 5
+        },
+        "guest-room":{
+            "name": "Guest Room",
+            "icon":"chair",
             "devicesCount": 4
         }
     }

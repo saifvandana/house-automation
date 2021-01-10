@@ -1,17 +1,30 @@
 {
     "devices": {
-      "3201115269": {
+      "1911949132": {
         "name": "Lights",
         "switch": true,
         "icon":"",
+        "controls": null
+      },
+      "4542264291": {
+        "name": "Curtains",
+        "switch": true,
+        "icon":"",
         "controls": {
-          "2612871503": {
-            "name": "Intensity",
-            "type": "scale",
-            "value": 20,
-            "min": 0,
-            "max": 100,
-            "step": 10
+          "3368059519": {
+            "name": "Status",
+            "type": "mode",
+            "value": "open",
+            "options": {
+              "open": {
+                "name": "Open",
+                "icon": ""
+              },
+              "close": {
+                "name": "Close",
+                "icon": ""
+              }
+            }
           }
         }
       },

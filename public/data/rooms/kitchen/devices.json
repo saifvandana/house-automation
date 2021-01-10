@@ -1,10 +1,32 @@
 {
     "devices": {
-      "3911949132": {
+      "3411949132": {
         "name": "Lights",
         "switch": true,
         "icon":"",
         "controls": null
+      },
+      "3542264291": {
+        "name": "Fridge",
+        "switch": true,
+        "icon":"",
+        "controls": {
+          "3368059519": {
+            "name": "Status",
+            "type": "mode",
+            "value": "open",
+            "options": {
+              "open": {
+                "name": "On",
+                "icon": ""
+              },
+              "close": {
+                "name": "Off",
+                "icon": ""
+              }
+            }
+          }
+        }
       },
       "6498088791": {
         "name": "Fan",
