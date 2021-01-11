@@ -4,7 +4,6 @@ import { TEMPERATURE, SCALE } from "../../../utils/deviceControls.types";
 import TemperatureControl from "../Controls/Temperature/TemperatureControl";
 import { MODE } from "./../../../utils/deviceControls.types";
 import ModeControl from "../Controls/Mode/ModeControl";
-import ScaleControl from "../Controls/Scale/ScaleControl";
 
 import classes from "./ControlsSwitcher.module.scss";
 
@@ -27,9 +26,6 @@ function ControlsSwitcher(props) {
       break;
     case MODE:
       control = <ModeControl {...controlProps} />;
-      break;
-    case SCALE:
-      control = <ScaleControl {...controlProps} />;
       break;
     default:
       control = null;
