@@ -11,6 +11,8 @@ Change the temperature(+/-)
 Open/close the curtains
 etc.
 
+[DEMO](https://house-automation.netlify.app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
