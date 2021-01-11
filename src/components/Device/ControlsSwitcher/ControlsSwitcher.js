@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { TEMPERATURE, SCALE } from "../../../utils/deviceControls.types";
+import { TEMPERATURE} from "../../../utils/deviceControls.types";
 import TemperatureControl from "../Controls/Temperature/TemperatureControl";
 import { MODE } from "./../../../utils/deviceControls.types";
 import ModeControl from "../Controls/Mode/ModeControl";
