@@ -1,11 +1,14 @@
-#House Automation App
+# House Automation App
 
 This is a SPA JavaScript application that is simulating house automation, that will allow remote clients (iPad browser web app for example) to monitor and control home appliances.
 ​
-For example, pressing a button on a control panel would visually:
-Turn on/off a light;
-Change the temperature(+/-);
-Open/close the curtains;
+For example, pressing a button on a control panel would visually: 
+
+Turn on/off a light 
+
+Change the temperature(+/-)
+
+Open/close the curtains
 etc.
 
 # Getting Started with Create React App
